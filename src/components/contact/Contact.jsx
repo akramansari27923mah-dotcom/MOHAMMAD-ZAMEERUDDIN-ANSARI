@@ -48,7 +48,7 @@ const Contact = () => {
 
             <h1 className='bg-linear-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-4xl'>Contact</h1>
 
-            <form ref={form} onSubmit={sendEmail} className='border border-gray-800 p-5 bg-black/10 backdrop-blur-md shadow-lg rounded-lg flex flex-col justify-center gap-y-5 text-white'>
+            <form ref={form} onSubmit={sendEmail} className='border border-gray-800 md:p-5 p-2 bg-black/10 backdrop-blur-md shadow-lg rounded-lg flex flex-col justify-center gap-y-5 text-white'>
 
                 <div className='flex flex-col justify-center gap-y-1'>
                     <label

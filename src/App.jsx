@@ -12,19 +12,19 @@ const App = () => {
 
   return (
     <>
-    <FireworksDemo />
+      <FireworksDemo />
       <div className="fixed inset-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
 
-      <div className="  flex flex-col justify-center items-center">
+      <div className="  flex flex-col justify-center items-center overflow-hidden">
         <Navebar />
         <Main />
-       <Education />
-       <Experience />
-       <Subject />
-       <Skills />
-       <Achievement />
-       <Contact />
-       <Footer />
+        <Education />
+        <Experience />
+        <Subject />
+        <Skills />
+        <Achievement />
+        <Contact />
+        <Footer />
       </div>
     </>
   )
