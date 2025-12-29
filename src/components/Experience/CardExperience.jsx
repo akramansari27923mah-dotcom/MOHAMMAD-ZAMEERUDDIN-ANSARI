@@ -11,17 +11,17 @@ const CardExperience = (props) => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 1, ease: 'easeInOut' }}
-                className='lg:flex  flex flex-col gap-y-5 lg:gap-x-10 justify-center items-center  backdrop-blur-lg bg-black/40 rounded-2xl border border-gray-700 overflow-hidden transition-all duration-300 hover:scale-105 cursor-pointer'>
+                className='lg:flex  flex flex-col gap-y-5 lg:gap-x-10 justify-center items-center  backdrop-blur-lg bg-black/40 rounded-2xl border border-gray-700 overflow-hidden transition-all duration-300 hover:scale-105 cursor-pointer '>
 
                 <div className='bg-white'>
                     <img
-                        className='w-90 h-60 object-contain rounded-[50%]'
+                        className='md:w-90 w-85 h-60 object-contain rounded-[50%]'
                         src={Image}
                     />
                 </div>
 
                 <div
-                    className='text-white flex justify-center items-center  lg:flex flex-col lg:justify-center lg:items-start gap-y-3 lg:text-2xl text-[20px] text-nowrap'>
+                    className='text-white flex justify-center  lg:flex flex-col lg:justify-center lg:items-start gap-y-3 lg:text-2xl text-[20px] text-nowrap'>
 
                     <p className='text-[18px]'>
                         {profation}
@@ -36,7 +36,7 @@ const CardExperience = (props) => {
                     </p>
 
                     <div
-                        className='flex items-center justify-around mb-2 w-full gap-x-5'>
+                        className='flex items-center justify-around mb-2 w-full gap-x-15'>
 
                         <p className='text-[18px]'>
                             {type}
