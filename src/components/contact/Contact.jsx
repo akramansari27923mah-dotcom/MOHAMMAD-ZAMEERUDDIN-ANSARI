@@ -61,7 +61,7 @@ const Contact = () => {
                         name='user_name'
                         value={name}
                         required
-                        className='border md:pr-30 pr-25 outline-none p-2 rounded-sm w-full border-gray-600 focus:border-gray-400'
+                        className='border md:pr-30 pr-20 outline-none p-2 rounded-sm w-full border-gray-600 focus:border-gray-400'
                         type="text"
                         onChange={(e) => setName(e.target.value)}
                     />
@@ -78,7 +78,7 @@ const Contact = () => {
                         name='user_email'
                         required
                         value={email}
-                        className='border md:pr-30 pr-25 outline-none p-2 rounded-sm w-full border-gray-600 focus:border-gray-400'
+                        className='border md:pr-30 pr-20 outline-none p-2 rounded-sm w-full border-gray-600 focus:border-gray-400'
                         type="email"
                         onChange={(e) => setEmail(e.target.value)}
                     />
@@ -95,7 +95,7 @@ const Contact = () => {
                         name='user_subject'
                         required
                         value={subject}
-                        className='border md:pr-30 pr-25 outline-none p-2 rounded-sm w-full border-gray-600 focus:border-gray-400'
+                        className='border md:pr-30 pr-20 outline-none p-2 rounded-sm w-full border-gray-600 focus:border-gray-400'
                         type="text"
                         onChange={(e) => setSubject(e.target.value)}
                     />
@@ -111,7 +111,7 @@ const Contact = () => {
                         placeholder='Your Message'
                         name='user_message'
                         value={Message}
-                        className='border md:pr-30 pr-25 outline-none p-2 rounded-sm w-full border-gray-600 focus:border-gray-400'
+                        className='border md:pr-30 pr-20 outline-none p-2 rounded-sm w-full border-gray-600 focus:border-gray-400'
                         onChange={(e) => setMessage(e.target.value)}
                     />
                 </div>
