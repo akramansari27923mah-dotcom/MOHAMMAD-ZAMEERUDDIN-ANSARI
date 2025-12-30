@@ -1,6 +1,9 @@
 import emailjs from '@emailjs/browser';
 import { useRef, useState, } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
+// eslint-disable-next-line no-unused-vars
+import { motion } from 'framer-motion'
+
 
 const Contact = () => {
     const form = useRef();
@@ -46,9 +49,20 @@ const Contact = () => {
     return (
         <div id='Contact' className='w-full md:min-h-screen flex flex-col justify-center items-center text-white z-20 gap-y-10 mb-10 md:m-0'>
 
-            <h1 className='bg-linear-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-4xl'>Contact</h1>
+            <motion.h1
+                initial={{ opacity: 0, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, ease: 'easeInOut' }}
+                className='bg-linear-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-4xl'>Contact
+            </motion.h1>
 
-            <form ref={form} onSubmit={sendEmail} className='border border-gray-400 p-5 bg-black/10 backdrop-blur-md shadow-lg rounded-lg flex flex-col justify-center gap-y-5 text-black'>
+            <motion.form
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, ease: 'easeInOut' }}
+                ref={form} onSubmit={sendEmail} className='border border-gray-400 p-5 bg-black/10 backdrop-blur-md shadow-lg rounded-lg flex flex-col justify-center gap-y-5 text-black'>
 
                 <div className='flex flex-col justify-center gap-y-1'>
                     <label
@@ -121,9 +135,9 @@ const Contact = () => {
                         className='py-2 px-5 bg-black/10 backdrop-blur-md  text-black rounded-lg cursor-pointer transition-all duration-300 hover:bg-green-500/40 hover:text-white'
                         type="submit"
                     />
-                      <ToastContainer style={{marginTop: "60px"}} />
+                    <ToastContainer style={{ marginTop: "60px" }} />
                 </div>
-            </form>
+            </motion.form>
         </div>
     )
 }
