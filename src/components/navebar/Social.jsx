@@ -10,7 +10,7 @@ const Social = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
             className="hidden lg:block">
-            <div className='text-white md:flex justify-center items-center gap-x-5 animate__animated animate__tada'>
+            <div className='text-black md:flex justify-center items-center gap-x-5 animate__animated animate__tada'>
 
                 <a
                     // link

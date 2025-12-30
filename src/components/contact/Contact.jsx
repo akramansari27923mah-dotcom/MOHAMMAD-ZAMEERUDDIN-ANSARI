@@ -48,7 +48,7 @@ const Contact = () => {
 
             <h1 className='bg-linear-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-4xl'>Contact</h1>
 
-            <form ref={form} onSubmit={sendEmail} className='border border-gray-800 p-5 bg-black/10 backdrop-blur-md shadow-lg rounded-lg flex flex-col justify-center gap-y-5 text-white'>
+            <form ref={form} onSubmit={sendEmail} className='border border-gray-400 p-5 bg-black/10 backdrop-blur-md shadow-lg rounded-lg flex flex-col justify-center gap-y-5 text-black'>
 
                 <div className='flex flex-col justify-center gap-y-1'>
                     <label
@@ -61,7 +61,7 @@ const Contact = () => {
                         name='user_name'
                         value={name}
                         required
-                        className='border md:pr-30 pr-25 outline-none p-2 rounded-sm w-full border-gray-600 focus:border-gray-400'
+                        className='border md:pr-30 pr-25 outline-none p-2 rounded-sm w-full border-gray-400 focus:border-gray-600'
                         type="text"
                         onChange={(e) => setName(e.target.value)}
                     />
@@ -78,7 +78,7 @@ const Contact = () => {
                         name='user_email'
                         required
                         value={email}
-                        className='border md:pr-30 pr-25 outline-none p-2 rounded-sm w-full border-gray-600 focus:border-gray-400'
+                        className='border md:pr-30 pr-25 outline-none p-2 rounded-sm w-full border-gray-400 focus:border-gray-600'
                         type="email"
                         onChange={(e) => setEmail(e.target.value)}
                     />
@@ -95,7 +95,7 @@ const Contact = () => {
                         name='user_subject'
                         required
                         value={subject}
-                        className='border md:pr-30 pr-25 outline-none p-2 rounded-sm w-full border-gray-600 focus:border-gray-400'
+                        className='border md:pr-30 pr-25 outline-none p-2 rounded-sm w-full border-gray-400 focus:border-gray-600'
                         type="text"
                         onChange={(e) => setSubject(e.target.value)}
                     />
@@ -111,14 +111,14 @@ const Contact = () => {
                         placeholder='Your Message'
                         name='user_message'
                         value={Message}
-                        className='border md:pr-30 pr-25 outline-none p-2 rounded-sm w-full border-gray-600 focus:border-gray-400'
+                        className='border md:pr-30 pr-25 outline-none p-2 rounded-sm w-full border-gray-400 focus:border-gray-600'
                         onChange={(e) => setMessage(e.target.value)}
                     />
                 </div>
 
                 <div className='text-center'>
                     <input
-                        className='py-2 px-5 bg-white/70  text-black rounded-lg cursor-pointer transition-all duration-300 hover:bg-white'
+                        className='py-2 px-5 bg-black/10 backdrop-blur-md  text-black rounded-lg cursor-pointer transition-all duration-300 hover:bg-green-500/40 hover:text-white'
                         type="submit"
                     />
                       <ToastContainer style={{marginTop: "60px"}} />

@@ -8,7 +8,7 @@ const Links = () => {
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
-            className='text-white hidden md:block text-[15px]'>
+            className='text-black hidden md:block text-[15px]'>
 
             <ul className='flex justify-center items-center gap-x-10 animate__animated animate__flip animate_delay_3 tracking-widest'>
 
@@ -28,6 +28,14 @@ const Links = () => {
 
                     </li>
                 </a> */}
+                <a href="#Education">
+                    <li
+                        title="Education"
+                        className='opacity-70 hover:opacity-100 hover:-translate-y-1 cursor-pointer hover:scale-105 transition-all duration-300'>
+                        Education
+
+                    </li>
+                </a>
 
                 <a href="#Experience">
                     <li
@@ -38,14 +46,6 @@ const Links = () => {
                     </li>
                 </a>
 
-                <a href="#Education">
-                    <li
-                        title="Education"
-                        className='opacity-70 hover:opacity-100 hover:-translate-y-1 cursor-pointer hover:scale-105 transition-all duration-300'>
-                        Education
-
-                    </li>
-                </a>
 
                 <a href="#Subjects">
                     <li

@@ -8,11 +8,11 @@ const Card = ({ UniversityName, degree, date, grade, key }) => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: 'easeInOut' }}
             viewport={{ once: true }}
-            className=" backdrop-blur-lg  bg-black/20  rounded-2xl mt-10 flex justify-center items-center transition-all duration-300 hover:scale-105 cursor-pointer ">
+            className=" backdrop-blur-lg  bg-black/20 mt-10 flex justify-center items-center transition-all duration-300 hover:scale-105 cursor-pointer">
 
             <div
                 key={key}
-                className="text-white flex flex-col justify-center items-center flex-wrap gap-y-5 lg:gap-y-5 w-80 md:h-70 border border-gray-700 rounded-sm text-center px-2 md:mx-0">
+                className="text-black flex flex-col justify-center items-center flex-wrap gap-y-5 lg:gap-y-5 w-80 md:h-70 border border-gray-300 text-center px-2 md:mx-0">
 
                 <p
                     className="lg:text-5xl text-nowrap text-[50px] animate-pulse">

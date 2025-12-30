@@ -2,7 +2,7 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div className='z-20 text-white flex  justify-around items-center w-full bg-white/10  p-5 md:overflow-hidden overflow-x-scroll'>
+        <div className='z-20 text-black flex  justify-around items-center w-full bg-black/20  p-5 md:overflow-hidden overflow-x-scroll'>
             <div className="tracking-widest hidden md:block">
                  © {new Date().getFullYear()} MOHAMMAD ZAMEERUDDIN ANSARI.
             </div>

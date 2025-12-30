@@ -33,14 +33,14 @@ const Main = () => {
                         I'm Physics Educator
                     </h1>
 
-                    <p className="max-w-150 text-gray-400 text-center hidden sm:block">
+                    <p className="max-w-150 text-black text-center hidden sm:block">
                         Passionate Educator | Student-Focused Learning
                         Dedicated Teacher | Lifelong Learner
                         Educator Focused on Student
                     </p>
 
 
-                    <p className="max-w-150 text-gray-400 text-center  sm:hidden">
+                    <p className="max-w-150 text-black text-center  sm:hidden">
                         “Dedicated Educator | Student-Centered Learning”
                     </p>
                 </motion.div>

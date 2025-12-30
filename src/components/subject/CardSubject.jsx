@@ -18,7 +18,7 @@ const CardSubject = ({ Image, name }) => {
 
       <div>
         <p
-          className='md:text-4xl md:text-gray-400'>
+          className='md:text-4xl md:text-black'>
           {name}
         </p>
       </div>

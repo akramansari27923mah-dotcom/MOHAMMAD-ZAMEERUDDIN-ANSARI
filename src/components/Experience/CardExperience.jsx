@@ -11,7 +11,7 @@ const CardExperience = (props) => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 1, ease: 'easeInOut' }}
-                className='lg:flex  flex flex-col gap-y-5 lg:gap-x-10 justify-center items-center  backdrop-blur-lg bg-black/40 rounded-2xl border border-gray-700 overflow-hidden transition-all duration-300 hover:scale-105 cursor-pointer '>
+                className='lg:flex  flex flex-col gap-y-5 lg:gap-x-10 justify-center items-center  backdrop-blur-lg bg-black/20 rounded-2xl border border-gray-300 overflow-hidden transition-all duration-300 hover:scale-105 cursor-pointer '>
 
                 <div className='bg-white'>
                     <img
@@ -21,17 +21,17 @@ const CardExperience = (props) => {
                 </div>
 
                 <div
-                    className='text-white flex justify-center  lg:flex flex-col lg:justify-center lg:items-start gap-y-3 lg:text-2xl text-[20px] text-nowrap'>
+                    className='text-black flex justify-center  lg:flex flex-col lg:justify-center lg:items-start gap-y-3 lg:text-2xl text-[20px] text-nowrap'>
 
                     <p className='text-[18px]'>
                         {profation}
                     </p>
 
-                    <p className='text-gray-400'>
+                    <p className=''>
                         {name}
                     </p>
 
-                    <p className='text-gray-400'>
+                    <p className=''>
                         {date}
                     </p>
 
@@ -48,7 +48,7 @@ const CardExperience = (props) => {
                             href={link}>
 
                             <button
-                                className='py-1 px-5 rounded-2xl border-[0.5px] border-gray-400 transition-all duration-300 hover:text-green-600 hover:border-green-500  cursor-pointer bg-black/70'>
+                                className='py-1 px-5 rounded-2xl border-[0.5px] border-gray-400 transition-all duration-300 hover:text-green-600 hover:border-green-500  cursor-pointer bg-black/70 text-white'>
                                 Visit
                             </button>
 

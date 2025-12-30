@@ -13,9 +13,9 @@ const App = () => {
   return (
     <>
       <FireworksDemo />
-      <div className="fixed inset-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+    <div class="fixed top-0 inset-0 -z-10 h-screen w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)]"></div>
 
-      <div className="  flex flex-col justify-center items-center overflow-hidden">
+      <div className=" flex flex-col justify-center items-center overflow-hidden">
         <Navebar />
         <Main />
         <Education />

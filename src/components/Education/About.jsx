@@ -12,7 +12,7 @@ const Education = () => {
             <EducationHead />
 
             <div
-                className="grid md:grid-cols-3  justify-center items-center gap-x-30 gap-y-10 flex-wrap">
+                className="grid md:grid-cols-3 justify-center items-center gap-x-30 gap-y-10 flex-wrap">
                 {
                     education
                         .map(({
