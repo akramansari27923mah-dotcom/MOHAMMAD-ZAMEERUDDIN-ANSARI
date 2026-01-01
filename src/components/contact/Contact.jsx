@@ -3,6 +3,7 @@ import { useRef, useState, } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
+import confetti from "canvas-confetti";
 
 
 const Contact = () => {
@@ -11,6 +12,15 @@ const Contact = () => {
     const [email, setEmail] = useState('');
     const [Message, setMessage] = useState('');
     const [subject, setSubject] = useState('');
+
+
+    const fire = () => {
+        confetti({
+            particleCount: 150,
+            spread: 70,
+            origin: { y: 0.6 },
+        });
+    };
 
 
     const sendEmail = (e) => {
@@ -33,7 +43,8 @@ const Contact = () => {
                 'K2rM4-3Zu0DCu3cdS'
             ).then(
                 () => {
-                    toast.success('Your form submitted!')
+                    toast.success('form submitted!')
+                    fire()
                     setEmail('')
                     setMessage('')
                     setName('')
