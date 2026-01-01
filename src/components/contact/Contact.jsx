@@ -33,8 +33,6 @@ const Contact = () => {
             user_message: Message,
         };
 
-        console.log(templateParam);
-
         emailjs
             .send(
                 'service_lohj276',
