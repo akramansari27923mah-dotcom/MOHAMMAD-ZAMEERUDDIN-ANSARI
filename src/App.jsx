@@ -1,3 +1,4 @@
+import About from "./components/About/About"
 import Achievement from "./components/ACHIEVEMENT/Ahoevement"
 import Contact from "./components/contact/Contact"
 import Education from "./components/Education/About"
@@ -16,6 +17,7 @@ const App = () => {
       <div className=" flex flex-col justify-center items-center overflow-hidden">
         <Navebar />
         <Main />
+        <About />
         <Education />
         <Experience />
         <Subject />

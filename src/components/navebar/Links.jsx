@@ -20,14 +20,14 @@ const Links = () => {
                     </li>
                 </a>
 
-                {/* <a href="#Home">
+                <a href="#About">
                     <li
                         title="About"
                         className='opacity-70 hover:opacity-100 hover:-translate-y-1 cursor-pointer hover:scale-105 transition-all duration-300'>
                         About
 
                     </li>
-                </a> */}
+                </a>
                 <a href="#Education">
                     <li
                         title="Education"

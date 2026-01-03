@@ -119,14 +119,13 @@ const Menu = () => {
                             </li>
                         </a>
 
-                        {/* <a href="#About">
+                        <a href="#About">
                             <li
-                                id='About'
                                 title="About"
                                 className='opacity-70 hover:opacity-100 hover:-translate-y-1 cursor-pointer hover:scale-105 transition-all duration-300'>
                                 About
                             </li>
-                        </a> */}
+                        </a>
 
                         <a href="#Experience">
                             <li
